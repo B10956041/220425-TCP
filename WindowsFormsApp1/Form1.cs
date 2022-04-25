@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
        private void Listen()
         {
             Socket Sck = Client;
-            Thread Th = Th_Clt;
+            Thread Th = Th_clt;
             while (true)
             {
                 try
